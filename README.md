@@ -52,15 +52,6 @@ python eval_pipeline.py ^
   --output sample_eval_report.json
 ```
 
-Linux / macOS 可改成：
-
-```bash
-python eval_pipeline.py \
-  --labels sample_label.json \
-  --results sample_prediction.json \
-  --output sample_eval_report.json
-```
-
 ## 評測指標
 
 ### 訊息層級
@@ -83,11 +74,11 @@ python eval_pipeline.py \
 
 這個專案不是完整產品，而是用來展示 VLM 資料抽取任務中的幾個核心工程問題：
 
-1. 如何設計可維護的 prompt routing
-2. 如何把不穩定的 VLM output 轉成穩定資料結構
-3. 如何建立 Golden Sample
-4. 如何避免訊息漏抓造成整批 index 對齊錯位
-5. 如何用可重現的指標比較不同模型與 prompt
+1. 設計可維護的 prompt routing
+2. 把不穩定的 VLM output 轉成穩定資料結構
+3. 建立 Golden Sample
+4. 避免訊息漏抓造成整批 index 對齊錯位
+5. 用可重現的指標比較不同模型與 prompt
 
 ## 注意
 
