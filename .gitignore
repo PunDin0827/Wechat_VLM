@@ -1,0 +1,25 @@
+.env
+*.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Demo / runtime outputs
+demo_data/
+output_json/
+uploaded_imgs/
+done_imgs/
+skipped_imgs/
+*.log
+
+# Private data
+labels/private/
+private_data/
+*.sqlite3
+*.db
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
