@@ -1,0 +1,43 @@
+{
+  "source_file": "demo_LINE_chat_001.png",
+  "annotator": "demo_user",
+  "annotation_confidence": "high",
+  "notes": "公開假資料，不含真實聊天內容",
+  "stage1": {
+    "app_source": "LINE",
+    "screen_type": "chat_detail",
+    "chat_type": "direct"
+  },
+  "stage2": {
+    "chat_header": "王小明",
+    "messages": [
+      {
+        "seq": 0,
+        "side": "left",
+        "speaker_canonical": "王小明",
+        "content": "你好，今天方便開會嗎？",
+        "content_type": "text",
+        "time_raw": "下午 3:42"
+      },
+      {
+        "seq": 1,
+        "side": "right",
+        "speaker_canonical": "發起人",
+        "content": "可以，我 4 點後有空。",
+        "content_type": "text",
+        "time_raw": "下午 3:43"
+      },
+      {
+        "seq": 2,
+        "side": "left",
+        "speaker_canonical": "王小明",
+        "content": "那就 4:30，謝謝！",
+        "content_type": "text",
+        "time_raw": "下午 3:44"
+      }
+    ],
+    "friends": [],
+    "chat_entries": [],
+    "description": null
+  }
+}

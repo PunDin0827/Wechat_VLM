@@ -1,0 +1,6 @@
+[
+  {
+    "file_name": "demo_LINE_chat_001.png",
+    "output_text": "{\"screen_type\": \"chat_detail\", \"app_source\": \"LINE\", \"chat_type\": \"direct\", \"chat_header\": \"王小明\", \"messages\": [{\"user_name\": null, \"side\": \"left\", \"message\": \"你好，今天方便開會嗎？\", \"time\": \"下午 3:42\"}, {\"user_name\": \"發起人\", \"side\": \"right\", \"message\": \"可以，我 4 點後有空。\", \"time\": \"下午 3:43\"}, {\"user_name\": null, \"side\": \"left\", \"message\": \"那就 4:30，謝謝！\", \"time\": \"下午 3:44\"}]}"
+  }
+]
